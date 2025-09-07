@@ -247,7 +247,7 @@ const Home = ({ navigation }) => {
           </Text>
         </Animated.View>
 
-        {/* <View style={styles.featuresContainer}>
+        <View style={styles.featuresContainer}>
           <FeatureCard 
             icon="upload-file" 
             title="Provide Career Context" 
@@ -263,7 +263,7 @@ const Home = ({ navigation }) => {
             title="Chat with Your Assistant Instantly" 
             description="Interact with your personalized assistant right after training." 
           />
-        </View> */}
+        </View>
 
         <Animated.View style={[styles.buttonContainer, { opacity: buttonAnim }]}>
           <TouchableOpacity 
